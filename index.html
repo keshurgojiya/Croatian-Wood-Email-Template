@@ -20,11 +20,25 @@
             .mobile-hide {
                 display: none !important;
             }
+            .mobile-show {
+                display: block !important;
+            }
+            .dice-right {
+                width: 105px !important;
+            }
+            .mobile-footer {
+                margin-top: -53px !important;
+                margin-bottom: 30px;
+            }
+            .mobile-top-padding-20 {
+                padding-top: 20px !important;
+            }
             .hero-image {
                 width: 100% !important;
                 max-width: 100% !important;
                 padding-top: 20px !important;
                 margin: 0 auto !important;
+                padding-left: 0px !important;
             }
             .desktop-row td {
                 display: inline-block !important;
@@ -69,14 +83,17 @@
                         <td align="center" style="padding: 0px 20px 20px 20px;">
                             <table width="100%" border="0" cellspacing="0" cellpadding="0" style="background:#ffffff;border-radius:20px;">
                                 <tr>
-                                    <td style="padding: 10px 20px 20px 20px;">
+                                    <td style="padding: 10px 20px 20px 20px;" class="mobile-top-padding-20">
                                         <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                             <tr>
                                                 <td class="stack-column" style="vertical-align: top;" valign="top">
                                                     <div style="font-family:'Bagel Fat One', Verdana, Arial, sans-serif; font-size:30px;line-height:40px;color:#112655;">EARLY BIRD</div>
                                                     <div style="font-family:'Bagel Fat One', Verdana, Arial, sans-serif; font-size:30px;line-height:40px;color:#5979C1;">15% DISCOUNT</div>
                                                     <div style="font-family:'Bagel Fat One', Verdana, Arial, sans-serif; font-size:30px;line-height:40px;color:#112655;">CODE : <span style="color:#DA6139;">MADBOARD15</span></div>
-                                                    <div style="padding-top: 30px;">
+                                                    <div class="mobile-show" style="display: none;">
+                                                        <img src="images/mad-board-mobile.png" alt="Mad Board wooden training tool" class="hero-image" style="display:block;border:0;outline:none;text-decoration:none;width: 244px; height:auto; max-width: 100%; ">
+                                                    </div>
+                                                    <div style="padding-top: 30px;" class="mobile-top-padding-20">
                                                         <span style="color:#112655; font-size: 16px; font-family:Verdana, Arial, sans-serif;">Offer valid </span>
                                                         <strong style="color:#112655; font-size: 16px; font-family:Verdana, Arial, sans-serif; font-weight: bold;">until 20.12.2025</strong>
                                                     </div>
@@ -84,8 +101,8 @@
                                                         <a href="#" style="display:inline-block;background:#F9E63F;color:#363636;text-decoration:none;padding:17px 111px; border-radius:12px;font-family:'Bagel Fat One', Verdana, Arial, sans-serif;font-size:16px; width: max-content;;">SHOP NOW</a>
                                                     </div>
                                                 </td>
-                                                <td class="stack-column" style="vertical-align: top; text-align: right;" align="right" valign="top">
-                                                    <img src="images/mad-board.png" alt="Mad Board wooden training tool" class="hero-image" style="display:block;border:0;outline:none;text-decoration:none;width: 244px; height:auto; max-width: 100%;">
+                                                <td class="stack-column mobile-hide" style="vertical-align: top; text-align: right;" align="right" valign="top">
+                                                    <img src="images/mad-board.png" alt="Mad Board wooden training tool" class="hero-image" style="display:block;border:0;outline:none;text-decoration:none;width: 244px; height:auto; max-width: 100%; padding-left: 45px;">
                                                 </td>
                                             </tr>
                                         </table>
@@ -102,7 +119,7 @@
                                 <tr>
                                     <td style="padding:20px;font-family:Verdana, Arial, sans-serif;color:#112655;font-size:16px;line-height:22px;">
                                         <div style="padding-bottom:26px;">Dear Customer,</div>
-                                        <div style="color:#112655; line-height: 24px;">
+                                        <div style="color:#112655; line-height: 24px; padding-right: 18px;">
                                             Thank you for being part of our journey and for trusting us with our <strong style="color:#DA6139;">Climbing Card Game Co-Bloc</strong>— your support has allowed us to continue creating products that celebrate the art and discipline of climbing.
                                         </div>
                                     </td>
@@ -116,26 +133,25 @@
                         <td align="center" style="padding: 0px 20px 20px 20px;">
                             <table width="100%" border="0" cellspacing="0" cellpadding="0" style="background:#ffffff;border-radius:20px;">
                                 <tr>
-                                    <td style="padding:18px 22px 8px 22px;font-family:Verdana, Arial, sans-serif; color:#112655;font-size:16px;line-height:24px;">
-                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                                            <tr>
-                                                <td width="81" valign="top" class="mobile-hide" style="padding:0;">
-                                                    <img src="images/dice-left.png" alt="dice decoration" style="display:block;width:81px;max-width:81px;height:auto;margin-top:-40px;">
-                                                </td>
-                                                <td>
-                                                    <span style="font-weight:700;color:#112655;">Today,</span> we're proud to present our latest creation! <br><span style="color:#DA6139;font-weight:700;">MAD BOARD</span> — a training tool where function meets craftsmanship.
-                                                </td>
-                                            </tr>
-                                        </table>
+                                    <td width="81" valign="top" style="padding:0;">
+                                        <img src="images/dice-left.png" alt="dice decoration" style="display:block;width:81px;max-width:81px;height:auto;margin-top:-44px; margin-left: -52px;">
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td style="padding:20px 0px;">
+                                    <td style="padding:0px 22px 8px 22px;font-family:Verdana, Arial, sans-serif; color:#112655;font-size:16px;line-height:24px;">
+                                        <span style="font-weight:700;color:#112655;">Today,</span> we're proud to present our latest creation! <br><span style="color:#DA6139;font-weight:700;">MAD BOARD</span> — a training tool where function meets craftsmanship.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="mobile-show" style="padding:20px 0px; display: none;">
+                                        <img src="images/mad-board-diagram-mobile.png" alt="Mad Board technical diagram" style="display:block;border:0;outline:none;text-decoration:none;max-width:100%;height:auto;width: 283px;">
+                                    </td>
+                                    <td class="mobile-hide" style="padding:20px 0px;">
                                         <img src="images/mad-board-diagram.png" alt="Mad Board technical diagram" style="display:block;border:0;outline:none;text-decoration:none;max-width:100%;height:auto;width: 512px;">
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td style="padding:0 22px 18px 22px;font-family:Verdana, Arial, sans-serif;color:#112655;font-size:15px;line-height:22px;">
+                                    <td style="padding:0 22px 18px 22px;font-family:Verdana, Arial, sans-serif;color:#112655;font-size:16px;line-height:22px;">
                                         For climbers who understand the balance between form, feel and performance.
                                     </td>
                                 </tr>
@@ -177,20 +193,22 @@
 
                     <!-- Bottom CTA / tagline card -->
                     <tr>
-                        <td align="center" style="padding: 0px 20px 40px 20px;">
+                        <td align="center" style="padding: 0px 20px;">
                             <table width="100%" border="0" cellspacing="0" cellpadding="0" style="background:#ffffff;border-radius:20px;">
                                 <tr>
-                                    <td style="padding:20px;text-align:center;position:relative;">
+                                    <td width="142" valign="bottom" align="right" style="padding:0;vertical-align:bottom;">
+                                        <img src="images/dice-right.png" class="dice-right" alt="dice decoration" style="display:block;width:142px;max-width:142px;height:auto; margin-right: -34px; margin-top: -10px;">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding:18px;text-align:center;">
                                         <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                             <tr>
                                                 <td align="center" style="padding:0;">
-                                                    <div style="display:inline-block;vertical-align:middle;text-align:center;">
+                                                    <div class="mobile-footer" style="display:inline-block;vertical-align:middle;text-align:center; margin-top: -122px;">
                                                         <div style="font-family:'Bagel Fat One', Verdana, Arial, sans-serif;font-size:24px;color:#112655;line-height:30px;">MAD BOARD</div>
-                                                        <div style="font-family:'Bagel Fat One', Verdana, Arial, sans-serif;font-size:24px;color:#DA6139;line-height:30px;">YOUR DAILY DOSE<br>OF GRAVITY THERAPY.</div>
+                                                        <div style="font-family:'Bagel Fat One', Verdana, Arial, sans-serif;font-size:24px;color:#DA6139;line-height:30px;">YOUR DAILY DOSE<br>OF <br class="mobile-show" style="display: none;"> GRAVITY THERAPY.</div>
                                                     </div>
-                                                </td>
-                                                <td width="142" valign="bottom" align="right" class="mobile-hide" style="padding:0;vertical-align:bottom;">
-                                                    <img src="images/dice-right.png" alt="dice decoration" style="display:block;width:142px;max-width:142px;height:auto;margin-bottom:20px;">
                                                 </td>
                                             </tr>
                                         </table>
