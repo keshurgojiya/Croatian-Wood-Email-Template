@@ -28,11 +28,18 @@
             }
             
             .mobile-grid-cell {
-                display: block !important;
-                width: 100% !important;
+                width: 50% !important;
+                padding-bottom: 15px !important;
+            }
+            .mobile-grid-cell:nth-child(1),
+            .mobile-grid-cell:nth-child(3) {
+                padding-right: 4.5px !important;
                 padding-left: 0 !important;
+            }
+            .mobile-grid-cell:nth-child(2),
+            .mobile-grid-cell:nth-child(4) {
+                padding-left: 4.5px !important;
                 padding-right: 0 !important;
-                padding-bottom: 20px !important;
             }
         }
     </style>
@@ -106,21 +113,24 @@
                     <!-- Feature / Diagram card -->
                     <tr>
                         <td align="center" style="padding: 0px 20px 20px 20px;">
-                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="background:#ffffff;border-radius:20px;position:relative;">
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="background:#ffffff;border-radius:20px;">
                                 <tr>
                                     <td style="padding:18px 22px 8px 22px;font-family:Verdana, Arial, sans-serif; color:#112655;font-size:16px;line-height:24px;">
-                                        <span style="font-weight:700;color:#112655;">Today,</span> we're proud to present our latest creation! <br><span style="color:#DA6139;font-weight:700;">MAD BOARD</span> — a training tool where function meets craftsmanship.
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td width="81" valign="top" class="mobile-hide" style="padding:0;">
+                                                    <img src="images/dice-left.png" alt="dice decoration" style="display:block;width:81px;max-width:81px;height:auto;margin-top:-40px;">
+                                                </td>
+                                                <td>
+                                                    <span style="font-weight:700;color:#112655;">Today,</span> we're proud to present our latest creation! <br><span style="color:#DA6139;font-weight:700;">MAD BOARD</span> — a training tool where function meets craftsmanship.
+                                                </td>
+                                            </tr>
+                                        </table>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td style="padding:20px 0px;">
-                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                                            <tr>
-                                                <td class="stack-column" style="vertical-align: top;">
-                                                    <img src="images/mad-board-diagram.png" alt="Mad Board technical diagram" style="display:block;border:0;outline:none;text-decoration:none;max-width:100%;height:auto;width: 512px;">
-                                                </td>
-                                            </tr>
-                                        </table>
+                                        <img src="images/mad-board-diagram.png" alt="Mad Board technical diagram" style="display:block;border:0;outline:none;text-decoration:none;max-width:100%;height:auto;width: 512px;">
                                     </td>
                                 </tr>
                                 <tr>
@@ -129,12 +139,6 @@
                                     </td>
                                 </tr>
                             </table>
-                        </td>
-                    </tr>
-                    <!-- Decorative dice left -->
-                    <tr>
-                        <td align="left" style="padding: 0px 20px 20px 20px;">
-                            <img src="images/dice-left.png" alt="dice decoration" class="mobile-hide" style="display:inline-block;vertical-align:top; width: 81px; margin-left: 20px;">
                         </td>
                     </tr>
 
@@ -146,19 +150,19 @@
                                     <td style="padding:20px;">
                                         <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                             <tr>
-                                                <td class="mobile-grid-cell" style="width:25%; padding-right: 9px; vertical-align: top;" valign="top">
+                                                <td class="mobile-grid-cell" style="width:25%; padding-right: 4.5px; vertical-align: top;" valign="top">
                                                     <img src="images/product-elegance.png" alt="Elegance" style="display:block;border-radius:8px;border:0;outline:none;text-decoration:none;width:100%;height:auto;margin-bottom:8px;">
                                                     <div align="center" style="font-family:Verdana, Arial, sans-serif;font-size:14px;color:#112655;font-weight:bold;">Elegance</div>
                                                 </td>
-                                                <td class="mobile-grid-cell" style="width:25%; padding-left:9px; padding-right: 9px; vertical-align: top;" valign="top">
+                                                <td class="mobile-grid-cell" style="width:25%; padding-left:4.5px; padding-right: 4.5px; vertical-align: top;" valign="top">
                                                     <img src="images/product-versatility.png" alt="Versatility" style="display:block;border-radius:8px;border:0;outline:none;text-decoration:none;width:100%;height:auto;margin-bottom:8px;">
                                                     <div align="center" style="font-family:Verdana, Arial, sans-serif;font-size:14px;color:#112655;font-weight:bold;">Versatility</div>
                                                 </td>
-                                                <td class="mobile-grid-cell" style="width:25%; padding-left:9px; padding-right: 9px; vertical-align: top;" valign="top">
+                                                <td class="mobile-grid-cell" style="width:25%; padding-left:4.5px; padding-right: 4.5px; vertical-align: top;" valign="top">
                                                     <img src="images/product-durability.png" alt="Durability" style="display:block;border-radius:8px;border:0;outline:none;text-decoration:none;width:100%;height:auto;margin-bottom:8px;">
                                                     <div align="center" style="font-family:Verdana, Arial, sans-serif;font-size:14px;color:#112655;font-weight:bold;">Durability</div>
                                                 </td>
-                                                <td class="mobile-grid-cell" style="width:25%; padding-left:9px; vertical-align: top;" valign="top">
+                                                <td class="mobile-grid-cell" style="width:25%; padding-left:4.5px; vertical-align: top;" valign="top">
                                                     <img src="images/product-portability.png" alt="Portability" style="display:block;border-radius:8px;border:0;outline:none;text-decoration:none;width:100%;height:auto;margin-bottom:8px;">
                                                     <div align="center" style="font-family:Verdana, Arial, sans-serif;font-size:14px;color:#112655;font-weight:bold;">Portability</div>
                                                 </td>
@@ -172,23 +176,26 @@
 
                     <!-- Bottom CTA / tagline card -->
                     <tr>
-                        <td align="center" style="padding: 0px 20px 20px 20px;">
+                        <td align="center" style="padding: 0px 20px 40px 20px;">
                             <table width="100%" border="0" cellspacing="0" cellpadding="0" style="background:#ffffff;border-radius:20px;">
                                 <tr>
-                                    <td style="padding:20px;text-align:center;">
-                                        <div style="display:inline-block;vertical-align:middle;text-align:center;">
-                                            <div style="font-family:'Bagel Fat One', Verdana, Arial, sans-serif;font-size:24px;color:#112655;line-height:30px;">MAD BOARD</div>
-                                            <div style="font-family:'Bagel Fat One', Verdana, Arial, sans-serif;font-size:24px;color:#DA6139;line-height:30px;">YOUR DAILY DOSE<br>OF GRAVITY THERAPY.</div>
-                                        </div>
+                                    <td style="padding:20px;text-align:center;position:relative;">
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td align="center" style="padding:0;">
+                                                    <div style="display:inline-block;vertical-align:middle;text-align:center;">
+                                                        <div style="font-family:'Bagel Fat One', Verdana, Arial, sans-serif;font-size:24px;color:#112655;line-height:30px;">MAD BOARD</div>
+                                                        <div style="font-family:'Bagel Fat One', Verdana, Arial, sans-serif;font-size:24px;color:#DA6139;line-height:30px;">YOUR DAILY DOSE<br>OF GRAVITY THERAPY.</div>
+                                                    </div>
+                                                </td>
+                                                <td width="142" valign="bottom" align="right" class="mobile-hide" style="padding:0;vertical-align:bottom;">
+                                                    <img src="images/dice-right.png" alt="dice decoration" style="display:block;width:142px;max-width:142px;height:auto;margin-bottom:20px;">
+                                                </td>
+                                            </tr>
+                                        </table>
                                     </td>
                                 </tr>
                             </table>
-                        </td>
-                    </tr>
-                    <!-- Decorative dice right -->
-                    <tr>
-                        <td align="right" style="padding: 0px 20px 40px 20px;">
-                            <img src="images/dice-right.png" alt="dice decoration" class="mobile-hide" style="display:inline-block;vertical-align:top; width: 142px; margin-right: 20px;">
                         </td>
                     </tr>
                 </table>
